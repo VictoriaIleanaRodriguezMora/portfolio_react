@@ -12,18 +12,6 @@ const ListaPunteada = () => {
               <li className="activo">
                 <a href="#1">1. Primer Capítulo Lorem ipsum dolor sit amet.</a>
               </li>
-              <li>
-                <a href="#2">2. Segundo Capítulo Lorem ipsum dolor sit amet.</a>
-              </li>
-              <li>
-                <a href="#3">3. Tercer Capítulo Lorem ipsum dolor sit amet.</a>
-              </li>
-              <li>
-                <a href="#4">4. Cuarto Capítulo Lorem ipsum dolor sit amet.</a>
-              </li>
-              <li>
-                <a href="#5">5. Quinto Capítulo Lorem ipsum dolor sit amet.</a>
-              </li>
             </ul>
           </div>
         </aside>
