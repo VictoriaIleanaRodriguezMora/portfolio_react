@@ -1,12 +1,10 @@
 import "./App.css";
-import ListaPunteada from "./components/ListaPunteada/ListaPunteada";
+import Lista_Punteada from "./components/Lista_Punteada/ListaPunteada";
 
 function App() {
-
   return (
     <>
-      <ListaPunteada />
-
+      <Lista_Punteada />
     </>
   );
 }
