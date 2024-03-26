@@ -1,6 +1,6 @@
 // import React from "react";
 import "./Lista_Punteada.css";
-import Lista_Item from "../Lista_Item/Lista_Item";
+import Lista_Item from "../Lista_Punteada_Item/Lista_Item";
 
 const Lista_Punteada = () => {
   return (

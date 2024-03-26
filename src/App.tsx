@@ -1,5 +1,5 @@
 import "./App.css";
-import Lista_Punteada from "./components/Lista_Punteada/ListaPunteada";
+import Lista_Punteada from "./components/Lista_Punteada/Lista_Punteada";
 
 function App() {
   return (

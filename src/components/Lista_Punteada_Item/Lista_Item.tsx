@@ -4,7 +4,7 @@ interface Interface_Contenido_Prop {
   contenido_prop: string
 }
 
-const Lista_Item: React.FC<Interface_Contenido_Prop> = ({ contenido_prop } ) => {
+const Lista_Punteada_Item: React.FC<Interface_Contenido_Prop> = ({ contenido_prop } ) => {
   return (
     <li>
       <a>{contenido_prop}</a>
@@ -12,4 +12,4 @@ const Lista_Item: React.FC<Interface_Contenido_Prop> = ({ contenido_prop } ) => 
   );
 };
 
-export default Lista_Item;
+export default Lista_Punteada_Item;
