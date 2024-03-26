@@ -25,27 +25,30 @@ body {
     width: 90%;
     margin: 0 auto;
     border: 2px solid red;
+    background-color: rgb(21, 255, 0);
+    display: flex;
+    justify-content: center;
 }
 
 aside {
-    padding: 0 15px;
+    /* padding: 0 20px; */
+    width: 80%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 aside .titulo {
     margin-bottom: 10px;
 }
 
-aside .contenedor-temario {
-    padding-top: 20px;
-    position: sticky;
-    top: 0;
-}
-
 aside .lista {
     list-style: none;
     border-left: 2px solid var(--color-temario);
     padding-left: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 aside .lista li {

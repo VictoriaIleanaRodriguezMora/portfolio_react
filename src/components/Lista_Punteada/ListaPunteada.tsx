@@ -1,5 +1,6 @@
 // import React from "react";
 import "./Lista_Punteada.css";
+import Lista_Item from "../Lista_Item/Lista_Item";
 
 const Lista_Punteada = () => {
   return (
@@ -10,8 +11,13 @@ const Lista_Punteada = () => {
             <h3 className="titulo">Temario</h3>
             <ul className="lista">
               <li>
-                <a href="#1">1. Primer Capítulo Lorem ipsum dolor sit amet.</a>
+                <a>1. Primer Capítulo Lorem ipsum dolor sit amet.</a>
               </li>
+              <Lista_Item
+                contenido_prop={
+                  "1. Primer Capítulo Lorem ipsum dolor sit amet."
+                }
+              />
             </ul>
           </div>
         </aside>
