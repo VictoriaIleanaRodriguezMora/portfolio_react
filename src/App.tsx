@@ -5,6 +5,7 @@ import Lista_Punteada from "./components/Lista_Punteada/Lista_Punteada";
 function App() {
   return (
     <>
+      {/* <ALTERNATIVA_Lista_Punteada /> */}
       <Lista_Punteada />
       {/* <ALTERNATIVA_Lista_Punteada/> */}
     </>

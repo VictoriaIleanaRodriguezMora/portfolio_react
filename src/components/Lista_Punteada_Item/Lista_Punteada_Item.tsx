@@ -1,10 +1,21 @@
 import { Interface_Contenido_Prop } from "../../interfaces/Interface_Contenido_Prop";
 
-const Lista_Punteada_Item: React.FC<Interface_Contenido_Prop> = ({ contenido_prop } ) => {
+const Lista_Punteada_Item: React.FC<Interface_Contenido_Prop> = ({  contenidos_prop,}) => {
+  // console.log(contenidos_prop);
+
   return (
-    <li>
-      <a>{contenido_prop}</a>
-    </li>
+    <>
+      <div className="experiencia-item">
+        <h4>PUESTO DE TRABAJO</h4>
+        <h5>12/2021 - Present</h5>
+        <p>Saint-Gobain INDEC, Mumbai,</p>
+        <ul>
+          {contenidos_prop.map((contenido_prop) => {
+            return <li key={contenido_prop}>{contenido_prop}</li>;
+          })}
+        </ul>
+      </div>
+    </>
   );
 };
 
