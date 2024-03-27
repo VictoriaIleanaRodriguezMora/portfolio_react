@@ -1,8 +1,4 @@
-import React from "react";
-
-interface Interface_Contenido_Prop {
-  contenido_prop: string
-}
+import { Interface_Contenido_Prop } from "../../interfaces/Interface_Contenido_Prop";
 
 const Lista_Punteada_Item: React.FC<Interface_Contenido_Prop> = ({ contenido_prop } ) => {
   return (
