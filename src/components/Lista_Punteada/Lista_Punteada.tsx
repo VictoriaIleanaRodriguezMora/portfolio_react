@@ -5,17 +5,22 @@ import Lista_Punteada_Contenedor_Item from "../Lista_Punteada_Contenedor_Item/Li
 const Lista_Punteada = () => {
   return (
     <>
-      <div className="Lista_Punteada">
-        <aside>
-          <div
-            className="Lista_Punteada-contenido"
-            id="Lista_Punteada-contenido"
-          >
-            <h3>Temario</h3>
-            <Lista_Punteada_Contenedor_Item />
-          </div>
-        </aside>
-      </div>
+      <section id="experiencia" className="experiencia">
+        <div>
+          <h3 className="experiencia-title">WORK EXPERIENCE</h3>
+          <Lista_Punteada_Contenedor_Item
+            posicion_prop="Docente en Programacion Front End"
+            duracion_prop="Abril 2022 - Abril 2023"
+            empresa_prop="Plataforma 5"
+          />
+
+          <Lista_Punteada_Contenedor_Item
+            posicion_prop="Tutoea en Programacion Front End & Back End"
+            duracion_prop="Abril 2023 - Diciembre 2023"
+            empresa_prop="Univesidad Tres de Febrero"
+          />
+        </div>
+      </section>
     </>
   );
 };
