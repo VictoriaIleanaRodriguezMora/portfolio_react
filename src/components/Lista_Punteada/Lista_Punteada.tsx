@@ -1,6 +1,6 @@
 // import React from "react";
 import "./Lista_Punteada.css";
-import Lista_Item from "../Lista_Punteada_Item/Lista_Item";
+import Lista_Punteada_Contenedor_Item from "../Lista_Punteada_Contenedor_Item/Lista_Punteada_Contenedor_Item";
 
 const Lista_Punteada = () => {
   return (
@@ -12,13 +12,7 @@ const Lista_Punteada = () => {
             id="Lista_Punteada-contenido"
           >
             <h3>Temario</h3>
-            <ul className="lista">
-              <Lista_Item
-                contenido_prop={
-                  "1. Primer Capítulo Lorem ipsum dolor sit amet."
-                }
-              />
-            </ul>
+            <Lista_Punteada_Contenedor_Item />
           </div>
         </aside>
       </div>
