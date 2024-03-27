@@ -4,33 +4,33 @@ import "./ALTERNATIVA-Lista_Punteada.css";
 const ALTERNATIVA_Lista_Punteada = () => {
   return (
     <>
-      <ul>
-        <li>
-          <span></span>
-          <div>
-            <p> FEBRUARY, 2022 - JULY, 2023 </p>
-            <h2> Front-end Developer @ Never8 </h2>
-            <p>
-              Maintaining and developing new features for a React.js project, as
-              well as integrating its functionality with a REST API are my
-              primary responsibilities as a Developer.
-            </p>
-          </div>
-        </li>
+      <section id="resume" className="resume">
+        <div>
+          <h3 className="resume-title">WORK EXPERIENCE</h3>
 
-        <li>
-          <span></span>
-          <div>
-            <p> FEBRUARY, 2022 - JULY, 2023 </p>
-            <h2> Front-end Developer @ Never8 </h2>
-            <p>
-              Maintaining and developing new features for a React.js project, as
-              well as integrating its functionality with a REST API are my
-              primary responsibilities as a Developer.
-            </p>
+          <div className="resume-item">
+            <h4>PUESTO DE TRABAJO</h4>
+            <h5>12/2021 - Present</h5>
+            <p>Saint-Gobain INDEC, Mumbai,</p>
+            <ul>
+              <li>ITEM</li>
+              <li>ITEM</li>
+              <li>ITEM</li>
+            </ul>
           </div>
-        </li>
-      </ul>
+
+          <div className="resume-item">
+            <h4>PUESTO DE TRABAJO</h4>
+            <h5>12/2021 - Present</h5>
+            <p>Saint-Gobain INDEC, Mumbai,</p>
+            <ul>
+              <li>ITEM</li>
+              <li>ITEM</li>
+              <li>ITEM</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
