@@ -6,8 +6,8 @@ const Lista_Punteada_List = () => {
       <ul>
         <Lista_Punteada_Item
           contenidos_prop={[
-            "Dictar las clases de HTML, CSS y JavaScript",
-            "Responder consultas fuera de clase",
+            {content: "Dictar las clases de HTML, CSS y JavaScript"},
+            {content: "Responder consultas fuera de clase"},
           ]}
         />
       </ul>

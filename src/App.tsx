@@ -4,12 +4,10 @@ import "./App.css";
 import Experiencia_De_Trabajo from "./pages/Experiencia_De_Trabajo";
 
 function App() {
+
   return (
     <>
-      {/* <ALTERNATIVA_Lista_Punteada /> */}
-      {/* <Lista_Punteada /> */}
-      <Experiencia_De_Trabajo/>
-      {/* <ALTERNATIVA_Lista_Punteada/> */}
+      <Experiencia_De_Trabajo />
     </>
   );
 }
