@@ -15,9 +15,9 @@ const Lista_Punteada = () => {
           />
 
           <Lista_Punteada_Contenedor_Item
-            posicion_prop="Tutoea en Programacion Front End & Back End"
+            posicion_prop="Tutora en Programacion Front End & Back End"
             duracion_prop="Abril 2023 - Diciembre 2023"
-            empresa_prop="Univesidad Tres de Febrero"
+            empresa_prop="Universidad Tres de Febrero"
           />
         </div>
       </section>

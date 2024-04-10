@@ -1,13 +1,6 @@
-import Lista_Punteada from "../components/Lista_Punteada/Lista_Punteada"
+import Lista_Punteada from "../components/Lista_Punteada/Lista_Punteada";
 const Experiencia_De_Trabajo = () => {
-  return (
-    <>
-    
-    <Lista_Punteada/>
-    
-    
-    </>
-  )
-}
+  return <Lista_Punteada />;
+};
 
-export default Experiencia_De_Trabajo
+export default Experiencia_De_Trabajo;

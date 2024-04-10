@@ -13,8 +13,8 @@ section {
 }
 
 .experiencia .experiencia-item {
-    padding: 0 0 5px 20px;
-    margin-top: -23px;
+    padding: 0 0 40px 27px;
+    margin-top: 0px;
     border-left: 2px solid rgba(0, 0, 0, 0.2);
     position: relative;
 }
@@ -25,7 +25,7 @@ section {
     width: 16px;
     height: 16px;
     border-radius: 50px;
-    left: -9px;
+    left: -10.5px;
     top: 0;
     background: #18d26e;
     border: 2px solid #18d26e;
@@ -40,6 +40,7 @@ section {
     font-family: "Poppins", sans-serif;
     color: #18d26e;
     margin-bottom: 10px;
+    text-align: start;
 }
 
 .experiencia .experiencia-item h5 {
@@ -49,8 +50,11 @@ section {
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: start;
+
 }
 
 .experiencia .experiencia-item ul {
     padding-left: 20px;
+    
 }
