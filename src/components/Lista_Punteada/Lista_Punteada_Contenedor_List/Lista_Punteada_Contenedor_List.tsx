@@ -1,9 +1,9 @@
 // import React from 'react'
-import "./Lista_Punteada_Contenedor_Item.css";
+import "./Lista_Punteada_Contenedor_List.css"
 import { Interface_Lista_Punteada_Contenedor_Items } from "../../../interfaces/Interface_Lista_Punteada_Contenedor_Item";
 import Lista_Punteada_List from "../Lista_Punteada_List/Lista_Punteada_List";
 
-const Lista_Punteada_Contenedor_Item: React.FC<
+const Lista_Punteada_Contenedor_List: React.FC<
   Interface_Lista_Punteada_Contenedor_Items
 > = ({ posicion_prop, duracion_prop, empresa_prop }) => {
   return (
@@ -18,4 +18,4 @@ const Lista_Punteada_Contenedor_Item: React.FC<
   );
 };
 
-export default Lista_Punteada_Contenedor_Item;
+export default Lista_Punteada_Contenedor_List;
