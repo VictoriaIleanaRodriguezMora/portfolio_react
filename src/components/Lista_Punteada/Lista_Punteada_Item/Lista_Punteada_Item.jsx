@@ -1,7 +1,6 @@
 // import { Interface_Contenido_Prop } from "../../../interfaces/Interface_Contenido_Prop";
 
 const Lista_Punteada_Item = ({ contenidos_prop }) => {
-  console.log("Lista_Punteada_Item", contenidos_prop);
   return (
     <>
       {contenidos_prop.map((contenido_prop, i) => {

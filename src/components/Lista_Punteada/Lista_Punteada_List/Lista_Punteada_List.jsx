@@ -1,7 +1,6 @@
 import Lista_Punteada_Item from "../Lista_Punteada_Item/Lista_Punteada_Item";
 
 const Lista_Punteada_List = ({ contenidos_prop }) => {
-  console.log("Lista_Punteada_List", contenidos_prop);
 
   return (
     <>

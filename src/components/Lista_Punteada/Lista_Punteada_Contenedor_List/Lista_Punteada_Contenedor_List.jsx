@@ -9,7 +9,6 @@ const Lista_Punteada_Contenedor_List = ({
   empresa_prop,
   contenido_prop,
 }) => {
-  console.log("Lista_Punteada_Contenedor_List", contenido_prop);
 
   return (
     <>
