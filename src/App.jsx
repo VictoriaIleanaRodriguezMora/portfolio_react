@@ -4,7 +4,6 @@ import "./App.css";
 import Experiencia_De_Trabajo from "./pages/Experiencia_De_Trabajo";
 
 function App() {
-
   return (
     <>
       <Experiencia_De_Trabajo />
