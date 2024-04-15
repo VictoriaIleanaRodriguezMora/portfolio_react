@@ -5,7 +5,9 @@ const Lista_Punteada_Item: React.FC<Interface_Contenido_Prop> = ({
 }) => {
   return (
     <>
-      {contenidos_prop.map((contenido_prop) => {
+      {contenidos_prop.map((contenido_prop, i) => {
+        console.log(i);
+
         // return <li key={contenido_prop}>{contenido_prop}</li>;
         return <li key={contenido_prop.content}>{contenido_prop.content}</li>;
 

@@ -10,6 +10,7 @@ const Lista_Punteada_List = () => {
             {content: "Responder consultas fuera de clase"},
           ]}
         />
+        
       </ul>
     </>
   );
