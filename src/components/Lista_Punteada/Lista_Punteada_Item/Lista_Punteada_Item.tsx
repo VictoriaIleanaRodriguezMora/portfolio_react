@@ -1,6 +1,8 @@
-// import { Interface_Contenido_Prop } from "../../../interfaces/Interface_Contenido_Prop";
+import { Interface_Contenido_Prop } from "../../../interfaces/Interface_Contenido_Prop";
 
-const Lista_Punteada_Item = ({ contenidos_prop }) => {
+const Lista_Punteada_Item: React.FC<Interface_Contenido_Prop> = ({
+  contenidos_prop,
+}) => {
   return (
     <>
       {contenidos_prop.map((contenido_prop, i) => {
