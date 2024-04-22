@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Comfortaa:wght@300&family=Foldit&family=Libre+Franklin:wght@100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron&family=Shadows+Into+Light&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,14 +8,15 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 
-ul{
+ul {
   list-style: none;
 }
