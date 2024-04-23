@@ -1,6 +1,9 @@
 section {
     position: absolute;
-
+    padding: 2% 6%;
+    background-color: rgba(24, 210, 111, 0.772);
+    border-radius: 25px;
+    width: 70%;
 }
 
 .experiencia .experiencia-title {
@@ -9,7 +12,6 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #000000;
-
 }
 
 .experiencia .experiencia-item {
@@ -27,34 +29,43 @@ section {
     border-radius: 50px;
     left: -10.5px;
     top: 0;
-    background: #18d26e;
-    border: 2px solid #18d26e;
+    background-color: #5500ff;
+    border: 2px solid #5500ff;
 }
 
+.fecha_empresa {
+    background-color: rgb(219, 205, 160);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 .experiencia .experiencia-item h4 {
     line-height: 18px;
     font-size: 18px;
-    font-weight: 600;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #18d26e;
+    color: #ffffff;
     margin-bottom: 10px;
-    text-align: start;
+    background-color: #033b0f7d;
+    padding: 3% 2% 3% 2%;
+    border-radius: 15px;
+    text-shadow: 3px 2px 3px black;
 }
 
-.experiencia .experiencia-item h5 {
-    font-size: 16px;
-    background: rgba(255, 255, 255, 0.15);
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
-    text-align: start;
+.experiencia .experiencia-item .fecha_empresa h5 {
+    font-size: 15px;
+    background-color: rgb(209, 24, 24);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
 
+.experiencia .experiencia-item .fecha_empresa p {
+    font-size: 15px;
+    background-color: rgb(209, 24, 24);
+    padding: 5px 5px;
+    border-radius: 10px;
 }
 
 .experiencia .experiencia-item ul {
     padding-left: 20px;
-    
 }
