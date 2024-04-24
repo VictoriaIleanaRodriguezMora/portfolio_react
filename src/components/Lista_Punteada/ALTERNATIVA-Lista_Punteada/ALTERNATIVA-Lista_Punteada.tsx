@@ -4,33 +4,31 @@ import "./ALTERNATIVA-Lista_Punteada.css";
 const ALTERNATIVA_Lista_Punteada = () => {
   return (
     <>
-      <section id="experiencia" className="experiencia">
-        <div>
-          <h3 className="experiencia-title">WORK EXPERIENCE</h3>
-
-          <div className="experiencia-item">
-            <h4>PUESTO DE TRABAJO</h4>
-            <h5>12/2021 - Present</h5>
-            <p>Saint-Gobain INDEC, Mumbai,</p>
-            <ul>
-              <li>ITEM</li>
-              <li>ITEM</li>
-              <li>ITEM</li>
-            </ul>
-          </div>
-
-          <div className="experiencia-item">
-            <h4>PUESTO DE TRABAJO</h4>
-            <h5>12/2021 - Present</h5>
-            <p>Saint-Gobain INDEC, Mumbai,</p>
-            <ul>
-              <li>ITEM</li>
-              <li>ITEM</li>
-              <li>ITEM</li>
-            </ul>
-          </div>
+      {/* <section id="experiencia"> */}
+      <div className="experiencia-item list-steps-item">
+        <h4>DESARROLLADORA FRONT END & ANALISTA FUNCIONAL</h4>
+        <div className="fecha_empresa">
+          <h5>NOV 2023 - Actualidad</h5>
+          <p>Gobierno de la Ciudad de Buenos Aires</p>
         </div>
-      </section>
+        <ul>
+          <li>Responder consultas fuera de clase</li>
+          <li>Dictar las clases de HTML, CSS y JavaScript</li>
+        </ul>
+      </div>
+
+      <div className="experiencia-item list-steps-item">
+        <h4>DESARROLLADORA FRONT END & ANALISTA FUNCIONAL</h4>
+        <div className="fecha_empresa">
+          <h5>NOV 2023 - Actualidad</h5>
+          <p>Gobierno de la Ciudad de Buenos Aires</p>
+        </div>
+        <ul>
+          <li>Responder consultas fuera de clase</li>
+          <li>Dictar las clases de HTML, CSS y JavaScript</li>
+        </ul>
+      </div>
+      {/* </section> */}
     </>
   );
 };

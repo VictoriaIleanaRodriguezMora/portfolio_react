@@ -8,13 +8,15 @@ const Lista_Punteada_Contenedor_Item: React.FC<
 > = ({ posicion_prop, duracion_prop, empresa_prop }) => {
   return (
     <>
-      <div className="experiencia-item">
-        <h4>{posicion_prop}</h4>
-        <div className="fecha_empresa">
-          <h5>{duracion_prop}</h5>
-          <p>{empresa_prop}</p>
+      <div className="experiencia-item list-steps-item">
+        <div>
+          <h4>{posicion_prop}</h4>
+          <div className="fecha_empresa">
+            <h5>{duracion_prop}</h5>
+            <p>{empresa_prop}</p>
+          </div>
+          <Lista_Punteada_List />
         </div>
-        <Lista_Punteada_List />
       </div>
     </>
   );
