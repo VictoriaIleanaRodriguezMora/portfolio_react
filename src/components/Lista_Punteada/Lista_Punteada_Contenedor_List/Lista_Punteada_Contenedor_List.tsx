@@ -9,10 +9,10 @@ const Lista_Punteada_Contenedor_Item: React.FC<
   return (
     <>
       <div className="experiencia-item list-steps-item">
+        <h5>{duracion_prop}</h5>
         <div>
           <h4>{posicion_prop}</h4>
           <div className="fecha_empresa">
-            <h5>{duracion_prop}</h5>
             <p>{empresa_prop}</p>
           </div>
           <Lista_Punteada_List />

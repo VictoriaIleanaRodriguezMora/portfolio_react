@@ -1,97 +1,95 @@
 section {
-    /* padding: 2% 6%; */
-    /* background-color: rgba(24, 210, 111, 0.772); */
-    border-radius: 25px;
-    width: 70%;
+  /* padding: 2% 6%; */
+  /* background-color: rgba(24, 210, 111, 0.772); */
+  border-radius: 25px;
+  width: 70%;
 }
 
 section h3 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #000000;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
 }
 
-section .experiencia-item>div {
-    border-radius: 15px;
+section .experiencia-item > div {
+  border-radius: 15px;
 }
 
 section div h4 {
-    line-height: 18px;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    background-color: #00ff37;
-    padding: 0.5%;
-    border-radius: 15px;
-    text-shadow: 0px 2px 4px rgb(255, 255, 255);
+  line-height: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: #00ff37;
+  padding: 0.5%;
+  border-radius: 15px;
+  text-shadow: 0px 2px 4px rgb(255, 255, 255);
 }
 
 section .fecha_empresa {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 
-section div .fecha_empresa h5 {
-    font-size: 15px;
-    border-radius: 10px;
-    padding: 5px;
-    border-bottom: 3px solid rgb(0 33 255);
-    /* border-top: 3px solid rgb(0, 234, 255); */
-
+section div h5 {
+  font-size: 15px;
+  /* border-radius: 10px; */
+  /* padding: 5px; */
+  /* border-bottom: 3px solid rgb(0 33 255); */
+  text-align: start;
+  padding: 4px 0px 6px 0px;
 }
 
 section div .fecha_empresa p {
-    font-size: 15px;
-    /* background-color: rgb(17 0 255 / 52%); */
-    padding: 5px 5px;
-    border-radius: 10px;
-    margin-left: 10px;
-    border: 3px solid rgb(0 33 255);
+  font-size: 15px;
+  /* background-color: rgb(17 0 255 / 52%); */
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: 3px solid rgb(0 33 255);
 }
 
 section div ul {
-    margin: 1%;
-    padding: 1%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    list-style: disc;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  list-style: disc;
 }
-
-
 
 /* lista de pasos */
 .list-steps-item {
-    color: #38485c;
-    position: relative;
-    padding: 0 0 1.5rem 2.25rem;
+  color: #38485c;
+  position: relative;
+  padding: 0 0 1.5rem 2.25rem;
 }
 
 .list-steps-item:before {
-    content: '';
-    background-color: #3e4283;
-    position: absolute;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    left: 0;
-    top: 2px;
+  content: "";
+  background-color: #3e4283;
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  left: 0;
+  top: 2px;
 }
 
 .list-steps-item:not(:last-child):after {
-    content: '';
-    position: absolute;
-    background-color: #3e4283;
-    width: .1875rem;
-    height: calc(100% - 24px);
-    left: 0.675rem;
-    top: 1.5rem;
+  content: "";
+  position: absolute;
+  background-color: #3e4283;
+  width: 0.1875rem;
+  height: calc(100% - 24px);
+  left: 0.675rem;
+  top: 1.5rem;
 }
 
 /* lista de pasos */
