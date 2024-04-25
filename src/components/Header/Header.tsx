@@ -1,8 +1,19 @@
-import React from 'react'
+import "./Header.css"
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <div>
+        <p> ~ $ cd /home</p>
+        <ul>
+          <li>Sobre mí</li>
+          <li>Proyectos</li>
+          <li>Tecnologias</li>
+          <li>Experiencia de trabajo</li>
+          <li>Educación</li>
+        </ul>
+      </div>
+    </header>
   )
 }
 
