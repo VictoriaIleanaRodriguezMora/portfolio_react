@@ -1,13 +1,19 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+  const pathname = location.pathname;
+
   return (
     <header>
       <div>
-        <p> ~ $ cd /home</p>
+        {pathname === "/experiencia-de-trabajo/" ? (
+          <p> ~ $ cd /home/experiencia-de-trabajo </p>
+        ) : (
+          <p> ~ $ cd /home </p>
+        )}
         <ul>
-
           <Link to={`/sobremi/`}>
             <li>Sobre mí</li>
           </Link>
@@ -27,7 +33,6 @@ const Header = () => {
           <Link to={`/estudios/`}>
             <li>Estudios</li>
           </Link>
-
         </ul>
       </div>
     </header>

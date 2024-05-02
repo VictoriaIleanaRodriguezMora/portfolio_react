@@ -11,7 +11,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path="/experiencia" element={<Experiencia_De_Trabajo />} />
+            <Route path="/experiencia-de-trabajo" element={<Experiencia_De_Trabajo />} />
           </Routes>
             <Experiencia_De_Trabajo />
         </BrowserRouter>
