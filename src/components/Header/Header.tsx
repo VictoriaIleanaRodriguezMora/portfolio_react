@@ -5,16 +5,33 @@ const Header = () => {
   const location = useLocation();
   const pathname = location.pathname;
 
+  let path;
+  if (pathname === "/experiencia-de-trabajo/") {
+    path = <p> ~ $ cd /home/experiencia-de-trabajo </p>;
+  }
+  if (pathname === "/tecnologias/") {
+    path = <p> ~ $ cd /home/tecnologias </p>;
+  }
+  if (pathname === "/proyectos/") {
+    path = <p> ~ $ cd /home/proyectos </p>;
+  }
+  if (pathname === "/estudios/") {
+    path = <p> ~ $ cd /home/estudios </p>;
+  }
+  if (pathname === "/sobre-mi/") {
+    path = <p> ~ $ cd /home/sobre-mi </p>;
+  }
+  else {
+    path = <p> ~ $ cd /home </p>;
+  }
+
   return (
     <header>
       <div>
-        {pathname === "/experiencia-de-trabajo/" ? (
-          <p> ~ $ cd /home/experiencia-de-trabajo </p>
-        ) : (
-          <p> ~ $ cd /home </p>
-        )}
+        <p>{path}</p>
+
         <ul>
-          <Link to={`/sobremi/`}>
+          <Link to={`/sobre-mi/`}>
             <li>Sobre mí</li>
           </Link>
 
