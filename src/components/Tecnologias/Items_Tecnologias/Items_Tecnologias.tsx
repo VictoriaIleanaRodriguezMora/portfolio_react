@@ -8,40 +8,61 @@ import {
   faReact,
   faSass,
   faNode,
-
+  faNpm,
+  // faDatabase
 } from "@fortawesome/free-brands-svg-icons";
 
 const Items_Tecnologias = () => {
   return (
-    <div>
-      Items_Tecnologias
-      <ul>
-        <li>
-          <FontAwesomeIcon icon={faGithub} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faGitAlt} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faCss3} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faHtml5} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faJsSquare} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faReact} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faSass} />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faNode} />
-        </li>
-      </ul>
-    </div>
+    <section>
+      <article>
+        <h3>Front End</h3>
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faCss3} />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faHtml5} />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faJsSquare} />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faReact} />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faSass} />
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Back End</h3>
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faNode} />
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Herramientas</h3>
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faGithub} />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGitAlt} />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faNpm} />
+          </li>
+          {/* <li>
+            <FontAwesomeIcon icon={faDatabase} />
+          </li> */}
+        </ul>
+      </article>
+    </section>
   );
 };
 
