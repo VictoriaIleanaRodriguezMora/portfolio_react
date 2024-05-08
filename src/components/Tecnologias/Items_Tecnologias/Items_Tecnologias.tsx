@@ -1,3 +1,4 @@
+import "./Items_Tecnologias.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -19,19 +20,19 @@ const Items_Tecnologias = () => {
         <h3>Front End</h3>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faCss3} />
+            <FontAwesomeIcon className="css" icon={faCss3} />
           </li>
           <li>
-            <FontAwesomeIcon icon={faHtml5} />
+            <FontAwesomeIcon className="html" icon={faHtml5} />
           </li>
           <li>
-            <FontAwesomeIcon icon={faJsSquare} />
+            <FontAwesomeIcon className="js" icon={faJsSquare} />
           </li>
           <li>
-            <FontAwesomeIcon icon={faReact} />
+            <FontAwesomeIcon className="react" icon={faReact} />
           </li>
           <li>
-            <FontAwesomeIcon icon={faSass} />
+            <FontAwesomeIcon className="sass" icon={faSass} />
           </li>
         </ul>
       </article>
@@ -40,8 +41,11 @@ const Items_Tecnologias = () => {
         <h3>Back End</h3>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faNode} />
+            <FontAwesomeIcon className="node" icon={faNode} />
           </li>
+          {/* <li>
+            <FontAwesomeIcon className="" icon={faDatabase} />
+          </li> */}
         </ul>
       </article>
 
@@ -49,17 +53,14 @@ const Items_Tecnologias = () => {
         <h3>Herramientas</h3>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon className="github" icon={faGithub} />
           </li>
           <li>
-            <FontAwesomeIcon icon={faGitAlt} />
+            <FontAwesomeIcon className="git" icon={faGitAlt} />
           </li>
           <li>
-            <FontAwesomeIcon icon={faNpm} />
+            <FontAwesomeIcon className="npm" icon={faNpm} />
           </li>
-          {/* <li>
-            <FontAwesomeIcon icon={faDatabase} />
-          </li> */}
         </ul>
       </article>
     </section>
