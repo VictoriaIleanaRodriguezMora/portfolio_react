@@ -10,9 +10,8 @@ import {
   faSass,
   faNode,
   faNpm,
-  // faLeaf,
-  // faDatabase
 } from "@fortawesome/free-brands-svg-icons";
+import { faLeaf, faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Items_Tecnologias = () => {
   return (
@@ -51,11 +50,11 @@ const Items_Tecnologias = () => {
             <span> Node </span>
           </li>
           <li>
-            {/* <FontAwesomeIcon icon={faLeaf} />  */}
+            <FontAwesomeIcon icon={faLeaf} />
             <span> Mongo DB </span>
           </li>
           <li>
-            {/* <FontAwesomeIcon className="dev " icon={faDatabase} /> */}
+            <FontAwesomeIcon className="dev " icon={faDatabase} />
             <span> MySQL</span>
           </li>
         </ul>
