@@ -1,4 +1,4 @@
-import "./Items_Tecnologias.css"
+import "./Items_Tecnologias.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -15,24 +15,24 @@ import {
 
 const Items_Tecnologias = () => {
   return (
-    <section>
+    <section id="Items_Tecnologias">
       <article>
         <h3>Front End</h3>
         <ul>
           <li>
-            <FontAwesomeIcon className="css" icon={faCss3} />
+            <FontAwesomeIcon className="dev css" icon={faCss3} />
           </li>
           <li>
-            <FontAwesomeIcon className="html" icon={faHtml5} />
+            <FontAwesomeIcon className="dev html" icon={faHtml5} />
           </li>
           <li>
-            <FontAwesomeIcon className="js" icon={faJsSquare} />
+            <FontAwesomeIcon className="dev js" icon={faJsSquare} />
           </li>
           <li>
-            <FontAwesomeIcon className="react" icon={faReact} />
+            <FontAwesomeIcon className="dev react" icon={faReact} />
           </li>
           <li>
-            <FontAwesomeIcon className="sass" icon={faSass} />
+            <FontAwesomeIcon className="dev sass" icon={faSass} />
           </li>
         </ul>
       </article>
@@ -41,10 +41,10 @@ const Items_Tecnologias = () => {
         <h3>Back End</h3>
         <ul>
           <li>
-            <FontAwesomeIcon className="node" icon={faNode} />
+            <FontAwesomeIcon className="dev node" icon={faNode} />
           </li>
           {/* <li>
-            <FontAwesomeIcon className="" icon={faDatabase} />
+            <FontAwesomeIcon className="dev " icon={faDatabase} />
           </li> */}
         </ul>
       </article>
@@ -53,13 +53,13 @@ const Items_Tecnologias = () => {
         <h3>Herramientas</h3>
         <ul>
           <li>
-            <FontAwesomeIcon className="github" icon={faGithub} />
+            <FontAwesomeIcon className="dev github" icon={faGithub} />
           </li>
           <li>
-            <FontAwesomeIcon className="git" icon={faGitAlt} />
+            <FontAwesomeIcon className="dev git" icon={faGitAlt} />
           </li>
           <li>
-            <FontAwesomeIcon className="npm" icon={faNpm} />
+            <FontAwesomeIcon className="dev npm" icon={faNpm} />
           </li>
         </ul>
       </article>
