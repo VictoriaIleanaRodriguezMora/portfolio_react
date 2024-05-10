@@ -1,75 +1,88 @@
 #Items_Tecnologias {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
 #Items_Tecnologias article {
-    width: 100%;
+  width: 100%;
 }
 
 #Items_Tecnologias article h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 article ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.349);
-    padding: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* background-color: rgba(0, 0, 0, 0.349); */
+  padding: 2rem;
 }
 
 article ul .dev {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
+  padding: 8px;
+  border-radius: 3px;
 }
 
-
-
+/* tecnologias */
 
 .html {
-    color: rgb(221, 75, 36);
+  background-color: rgba(221, 76, 36, 0.349);
+  color: rgb(221, 75, 36);
 }
 
 .css {
-    color: rgb(37, 75, 221);
+  background-color: rgba(37, 74, 221, 0.274);
+  color: rgb(37, 75, 221);
 }
 
 .sass {
-    color: rgb(198, 99, 148);
+  background-color: rgba(255, 3, 129, 0.221);
+  color: rgb(198, 99, 148);
 }
 
 .react {
-    color: rgb(94, 211, 243);
+  background-color: rgba(94, 211, 243, 0.199);
+  color: rgb(94, 211, 243);
 }
 
 .js {
-    color: rgb(239, 216, 29);
+  background-color: rgba(239, 214, 29, 0.279);
+  color: rgb(239, 216, 29);
 }
 
 .node {
-    color: rgb(134, 190, 1);
+  background-color: rgba(96, 136, 3, 0.205);
+  color: rgb(134, 190, 1);
 }
 
 .mongo {
-    color: rgb(17, 141, 77);
-
+  background-color: rgba(17, 141, 77, 0.308);
+  color: rgb(17, 141, 77);
 }
 
 .git {
-    color: rgb(233, 78, 49);
-
+  background-color: rgba(233, 77, 49, 0.299);
+  color: rgb(233, 78, 49);
 }
 
 .github {
-    color: rgb(0, 0, 0);
-
+  background-color: rgba(0, 0, 0, 0.29);
+  color: rgb(0, 0, 0);
 }
 
-.npm {
-    color: rgb(197, 54, 53);
-
+.npm{
+  background-color: rgba(255, 1, 1, 0.379);
+  color: rgb(197, 54, 53);
 }
+
+.mysql{
+    background-color: rgba(0, 94, 135, 0.274);
+    color: rgb(0,94,135);
+}
+/* tecnologias */
