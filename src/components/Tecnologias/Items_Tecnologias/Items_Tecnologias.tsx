@@ -8,7 +8,7 @@ import {
   faJsSquare,
   faReact,
   faSass,
-  faNode,
+  faNodeJs,
   faNpm,
 } from "@fortawesome/free-brands-svg-icons";
 import { faLeaf, faDatabase } from "@fortawesome/free-solid-svg-icons";
@@ -19,23 +19,23 @@ const Items_Tecnologias = () => {
       <article>
         <h3>Front End</h3>
         <ul>
-          <li className="dev_css">
+          <li>
             <FontAwesomeIcon className="dev css" icon={faCss3} />
             <span> CSS </span>
           </li>
-          <li className="dev_html">
+          <li>
             <FontAwesomeIcon className="dev html" icon={faHtml5} />
             <span> HTML </span>
           </li>
-          <li className="dev_js">
+          <li>
             <FontAwesomeIcon className="dev js" icon={faJsSquare} />
             <span> JavaScript </span>
           </li>
-          <li className="dev_react">
+          <li>
             <FontAwesomeIcon className="dev react" icon={faReact} />
             <span> React </span>
           </li>
-          <li className="dev_sass">
+          <li>
             <FontAwesomeIcon className="dev sass" icon={faSass} />
             <span> Sass </span>
           </li>
@@ -45,15 +45,15 @@ const Items_Tecnologias = () => {
       <article>
         <h3>Back End</h3>
         <ul>
-          <li className="dev_node">
-            <FontAwesomeIcon className="dev node" icon={faNode} />
+          <li>
+            <FontAwesomeIcon className="dev node" icon={faNodeJs} />
             <span> Node </span>
           </li>
-          <li className="dev_mongo">
+          <li>
             <FontAwesomeIcon className="dev mongo" icon={faLeaf} />
             <span> Mongo DB </span>
           </li>
-          <li className="dev_mysql">
+          <li>
             <FontAwesomeIcon className="dev mysql" icon={faDatabase} />
             <span> MySQL</span>
           </li>
@@ -63,15 +63,15 @@ const Items_Tecnologias = () => {
       <article>
         <h3>Herramientas</h3>
         <ul>
-          <li className="dev_git">
+          <li>
             <FontAwesomeIcon className="dev git" icon={faGitAlt} />
             <span> Git </span>
           </li>
-          <li className="dev_github">
+          <li>
             <FontAwesomeIcon className="dev github" icon={faGithub} />
             <span> Github </span>
           </li>
-          <li className="dev_npm">
+          <li>
             <FontAwesomeIcon className="dev npm" icon={faNpm} />
             <span> NPM </span>
           </li>

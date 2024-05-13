@@ -23,7 +23,6 @@ article ul {
   display: flex;
   width: 80%;
   justify-content: space-around;
-  padding: 2rem;
 }
 
 article ul li {
@@ -42,12 +41,16 @@ article ul .dev {
   height: 30px;
   width: 30px;
   padding: 8px;
-  border-radius: 3px;
+  border-radius: 5px;
+  
 }
 
 /* tecnologias */
-.css {
+article ul li > .css{
   background-color: rgba(37, 74, 221, 0.185);
+
+}
+.css {
   color: rgb(37, 75, 221);
 }
 
@@ -57,7 +60,7 @@ article ul .dev {
 }
 
 .js {
-  background-color: rgba(239, 214, 29, 0.146);
+  background-color: rgba(239, 214, 29, 0.299);
   color: rgb(239, 216, 29);
 }
 
