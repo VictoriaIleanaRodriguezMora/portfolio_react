@@ -27,6 +27,10 @@ const Items_Tecnologias = () => {
             <FontAwesomeIcon className="dev html" icon={faHtml5} />
             <span> HTML </span>
           </li>
+          <li className="dev_sass">
+            <FontAwesomeIcon className="dev sass" icon={faSass} />
+            <span> Sass </span>
+          </li>
           <li className="dev_js">
             <FontAwesomeIcon className="dev js" icon={faJsSquare} />
             <span> JavaScript </span>
@@ -34,10 +38,6 @@ const Items_Tecnologias = () => {
           <li className="dev_react">
             <FontAwesomeIcon className="dev react" icon={faReact} />
             <span> React </span>
-          </li>
-          <li className="dev_sass">
-            <FontAwesomeIcon className="dev sass" icon={faSass} />
-            <span> Sass </span>
           </li>
         </ul>
       </article>
