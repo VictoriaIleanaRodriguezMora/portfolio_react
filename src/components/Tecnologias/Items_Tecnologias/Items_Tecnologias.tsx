@@ -1,5 +1,4 @@
 import "./Items_Tecnologias.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faGitAlt,
@@ -12,70 +11,41 @@ import {
   faNpm,
 } from "@fortawesome/free-brands-svg-icons";
 import { faLeaf, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import Lista_Tecnologias from "./Lista_Tecnologias/Lista_Tecnologias";
+import Lista_Item from "./Lista_Tecnologias/Lista_Item/Lista_Item";
 
 const Items_Tecnologias = () => {
   return (
     <section id="Items_Tecnologias">
       <article>
         <h3>Front End</h3>
-        <ul>
-          <li className="dev_css">
-            <FontAwesomeIcon className="dev css" icon={faCss3} />
-            <span> CSS </span>
-          </li>
-          <li className="dev_html">
-            <FontAwesomeIcon className="dev html" icon={faHtml5} />
-            <span> HTML </span>
-          </li>
-          <li className="dev_sass">
-            <FontAwesomeIcon className="dev sass" icon={faSass} />
-            <span> Sass </span>
-          </li>
-          <li className="dev_js">
-            <FontAwesomeIcon className="dev js" icon={faJsSquare} />
-            <span> JavaScript </span>
-          </li>
-          <li className="dev_react">
-            <FontAwesomeIcon className="dev react" icon={faReact} />
-            <span> React </span>
-          </li>
-        </ul>
+        <Lista_Tecnologias>
+          <Lista_Item className_item="css" icon_item={faCss3} span_item="CSS" />
+          <Lista_Item className_item="html" icon_item={faHtml5} span_item="HTML" />
+          <Lista_Item className_item="sass" icon_item={faSass} span_item="Sass" />
+          <Lista_Item className_item="js" icon_item={faJsSquare} span_item="JavaScript" />
+          <Lista_Item className_item="react" icon_item={faReact} span_item="React" />
+        </Lista_Tecnologias>
       </article>
 
       <article>
         <h3>Back End</h3>
-        <ul>
-          <li className="dev_node">
-            <FontAwesomeIcon className="dev node" icon={faNode} />
-            <span> Node </span>
-          </li>
-          <li className="dev_mongo">
-            <FontAwesomeIcon className="dev mongo" icon={faLeaf} />
-            <span> Mongo DB </span>
-          </li>
-          <li className="dev_mysql">
-            <FontAwesomeIcon className="dev mysql" icon={faDatabase} />
-            <span> MySQL</span>
-          </li>
-        </ul>
+        <Lista_Tecnologias>
+          <Lista_Item className_item="node" icon_item={faNode} span_item="Node" />
+          <Lista_Item className_item="mongo" icon_item={faLeaf} span_item="Mongo DB" />
+          <Lista_Item className_item="sass" icon_item={faSass} span_item="Sass" />
+          <Lista_Item className_item="mysql" icon_item={faDatabase} span_item="MySQL" />
+        </Lista_Tecnologias>
       </article>
 
       <article>
         <h3>Herramientas</h3>
-        <ul>
-          <li className="dev_git">
-            <FontAwesomeIcon className="dev git" icon={faGitAlt} />
-            <span> Git </span>
-          </li>
-          <li className="dev_github">
-            <FontAwesomeIcon className="dev github" icon={faGithub} />
-            <span> Github </span>
-          </li>
-          <li className="dev_npm">
-            <FontAwesomeIcon className="dev npm" icon={faNpm} />
-            <span> NPM </span>
-          </li>
-        </ul>
+        <Lista_Tecnologias>
+          <Lista_Item className_item="git" icon_item={faGitAlt} span_item="Git" />
+          <Lista_Item className_item="github" icon_item={faGithub} span_item="Github" />
+          <Lista_Item className_item="mongo" icon_item={faLeaf} span_item="Mongo DB" />
+          <Lista_Item className_item="npm" icon_item={faNpm} span_item="Npm" />
+        </Lista_Tecnologias>
       </article>
     </section>
   );
