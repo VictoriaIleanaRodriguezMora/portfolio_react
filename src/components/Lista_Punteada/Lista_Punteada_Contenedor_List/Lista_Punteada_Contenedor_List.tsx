@@ -1,7 +1,7 @@
 // import React from 'react'
 import "./Lista_Punteada_Contenedor_List.css";
 import { Interface_Lista_Punteada_Contenedor_Items } from "../../../interfaces/Interface_Lista_Punteada_Contenedor_Item";
-import Lista_Punteada_List from "../Lista_Punteada_List/Lista_Punteada_List";
+import Lista_Punteada_List from "./Lista_Punteada_List/Lista_Punteada_List";
 
 const Lista_Punteada_Contenedor_Item: React.FC<
   Interface_Lista_Punteada_Contenedor_Items
