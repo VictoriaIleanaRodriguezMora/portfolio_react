@@ -1,4 +1,4 @@
-import "./Items_Tecnologias.css";
+import "../../../sass/index.scss";
 import {
   faGithub,
   faGitAlt,
