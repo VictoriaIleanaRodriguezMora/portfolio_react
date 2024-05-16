@@ -1,4 +1,4 @@
-import "./Header.css";
+import "../../sass/index.scss";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {

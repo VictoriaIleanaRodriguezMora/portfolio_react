@@ -1,5 +1,4 @@
-// import React from "react";
-import "./Lista_Punteada.css";
+import "../../sass/index.scss";
 import Lista_Punteada_Contenedor_Item from "./Lista_Punteada_Contenedor_List/Lista_Punteada_Contenedor_List";
 
 const Lista_Punteada = () => {

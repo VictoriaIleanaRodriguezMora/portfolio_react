@@ -1,4 +1,4 @@
-import React from 'react'
+import "../../sass/index.scss";
 
 const Footer = () => {
   return (

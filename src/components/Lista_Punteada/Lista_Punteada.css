@@ -1,25 +1,3 @@
-:root {
-    --fondo: #f2f2f2;
-    --color-temario: #c9c9c9;
-    --temario-active: #ffbd86;
-    --temario-active-border: #ff7300;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .Lista_Punteada {
     max-width: 800px;
     width: 90%;
