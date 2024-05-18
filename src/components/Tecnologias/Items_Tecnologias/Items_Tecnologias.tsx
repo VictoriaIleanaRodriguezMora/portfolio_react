@@ -33,7 +33,6 @@ const Items_Tecnologias = () => {
         <Lista_Tecnologias>
           <Lista_Item className_item="node" icon_item={faNode} span_item="Node" />
           <Lista_Item className_item="mongo" icon_item={faLeaf} span_item="Mongo DB" />
-          <Lista_Item className_item="sass" icon_item={faSass} span_item="Sass" />
           <Lista_Item className_item="mysql" icon_item={faDatabase} span_item="MySQL" />
         </Lista_Tecnologias>
       </article>
@@ -43,7 +42,6 @@ const Items_Tecnologias = () => {
         <Lista_Tecnologias>
           <Lista_Item className_item="git" icon_item={faGitAlt} span_item="Git" />
           <Lista_Item className_item="github" icon_item={faGithub} span_item="Github" />
-          <Lista_Item className_item="mongo" icon_item={faLeaf} span_item="Mongo DB" />
           <Lista_Item className_item="npm" icon_item={faNpm} span_item="Npm" />
         </Lista_Tecnologias>
       </article>
