@@ -1,14 +1,13 @@
 import React from 'react'
 
 const Proyectos = () => {
-  return (
-    <section>
-      
-        
+    return (
+        <section>
 
 
-    </section>
-  )
+
+        </section>
+    )
 }
 
 export default Proyectos

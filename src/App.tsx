@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Experiencia_De_Trabajo from "./pages/Experiencia_De_Trabajo";
+import Page_Experiencia_De_Trabajo from "./pages/Page_Experiencia_De_Trabajo";
 import Header from "./components/Header/Header";
-import Tecnologias from "./components/Tecnologias/Tecnologias";
+import Page_Tecnologias from "./pages/Page_Tecnologias";
 import Proyectos from "./components/Proyectos/Proyectos";
 
 function App() {
@@ -16,13 +16,13 @@ function App() {
             {/* /experiencia-de-trabajo/ */}
             <Route
               path="/experiencia-de-trabajo/"
-              element={<Experiencia_De_Trabajo />}
+              element={<Page_Experiencia_De_Trabajo />}
             />
 
             {/* /tecnologias/ */}
             <Route
               path="/tecnologias/"
-              element={<Tecnologias />}
+              element={<Page_Tecnologias />}
             />
 
             {/* proyectos */}
@@ -33,7 +33,7 @@ function App() {
 
 
           </Routes>
-          <Experiencia_De_Trabajo />
+          <Page_Experiencia_De_Trabajo />
         </BrowserRouter>
       </div>
     </>
