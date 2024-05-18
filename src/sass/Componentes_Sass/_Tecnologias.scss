@@ -1,106 +1,104 @@
 #Items_Tecnologias {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  article {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-  }
-  
-  #Items_Tecnologias article {
-    width: 100%;
-    display: flex;
     align-items: center;
     flex-direction: column;
+
+    h3 {
+      font-size: 22px;
+      font-weight: 700;
+      /* align-self: start;*/
+    }
+
+    ul {
+      display: flex;
+      width: 80%;
+      justify-content: space-around;
+      padding: 2rem;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          padding-left: 5px;
+          font-size: 20px;
+          font-weight: 500;
+        }
+
+        .dev {
+          height: 30px;
+          width: 30px;
+          padding: 8px;
+          border-radius: 3px;
+        }
+
+        /* tecnologias */
+        .css {
+          background-color: rgba(37, 74, 221, 0.185);
+          color: rgb(37, 75, 221);
+        }
+
+        .html {
+          background-color: rgba(221, 76, 36, 0.171);
+          color: rgb(221, 75, 36);
+        }
+
+        .js {
+          background-color: rgba(239, 214, 29, 0.146);
+          color: rgb(239, 216, 29);
+        }
+
+        .react {
+          background-color: rgba(94, 211, 243, 0.199);
+          color: rgb(94, 211, 243);
+        }
+
+        .sass {
+          background-color: rgba(255, 3, 129, 0.119);
+          color: rgb(198, 99, 148);
+        }
+
+        .node {
+          background-color: rgba(3, 136, 47, 0.121);
+          color: rgb(134, 190, 1);
+        }
+
+        .mongo {
+          background-color: rgba(17, 141, 77, 0.174);
+          color: rgb(17, 141, 77);
+        }
+
+        .mysql {
+          background-color: rgba(0, 94, 135, 0.185);
+          color: rgb(0, 94, 135);
+        }
+
+        .git {
+          background-color: rgba(233, 77, 49, 0.174);
+          color: rgb(233, 78, 49);
+        }
+
+        .github {
+          background-color: rgba(0, 0, 0, 0.171);
+          color: rgb(0, 0, 0);
+        }
+
+        .npm {
+          background-color: rgba(255, 1, 1, 0.11);
+          color: rgb(197, 54, 53);
+        }
+      }
+    }
   }
-  
-  #Items_Tecnologias article h3 {
-    font-size: 22px;
-    font-weight: 700;
-    /* align-self: start;*/
-  }
-  
-  article ul {
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
-    padding: 2rem;
-  }
-  
-  article ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  article ul li span {
-    padding-left: 5px;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  
-  article ul .dev {
-    height: 30px;
-    width: 30px;
-    padding: 8px;
-    border-radius: 3px;
-  }
-  
+
   /* tecnologias */
-  .css {
-    background-color: rgba(37, 74, 221, 0.185);
-    color: rgb(37, 75, 221);
-  }
-  
-  .html {
-    background-color: rgba(221, 76, 36, 0.171);
-    color: rgb(221, 75, 36);
-  }
-  
-  .js {
-    background-color: rgba(239, 214, 29, 0.146);
-    color: rgb(239, 216, 29);
-  }
-  
-  .react {
-    background-color: rgba(94, 211, 243, 0.199);
-    color: rgb(94, 211, 243);
-  }
-  
-  .sass {
-    background-color: rgba(255, 3, 129, 0.119);
-    color: rgb(198, 99, 148);
-  }
-  
-  .node {
-    background-color: rgba(3, 136, 47, 0.121);
-    color: rgb(134, 190, 1);
-  }
-  
-  .mongo {
-    background-color: rgba(17, 141, 77, 0.174);
-    color: rgb(17, 141, 77);
-  }
-  
-  .mysql {
-    background-color: rgba(0, 94, 135, 0.185);
-    color: rgb(0, 94, 135);
-  }
-  
-  .git {
-    background-color: rgba(233, 77, 49, 0.174);
-    color: rgb(233, 78, 49);
-  }
-  
-  .github {
-    background-color: rgba(0, 0, 0, 0.171);
-    color: rgb(0, 0, 0);
-  }
-  
-  .npm {
-    background-color: rgba(255, 1, 1, 0.11);
-    color: rgb(197, 54, 53);
-  }
-  
-  
-  
-  /* tecnologias */
+}

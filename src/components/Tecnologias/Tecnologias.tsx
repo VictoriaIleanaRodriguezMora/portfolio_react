@@ -1,4 +1,3 @@
-import React from 'react'
 import Items_Tecnologias from './Items_Tecnologias/Items_Tecnologias'
 
 const Tecnologias = () => {
