@@ -2,7 +2,7 @@ import Items_Tecnologias from './Items_Tecnologias/Items_Tecnologias'
 
 const Tecnologias = () => {
   return (
-    <section>
+    <section id="Items_Tecnologias">
       <h2>TECNOLOGIAS</h2>
       <div>
         <Items_Tecnologias />
