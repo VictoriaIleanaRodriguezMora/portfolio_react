@@ -6,7 +6,7 @@ const Lista_Punteada = () => {
     <>
       <section id="experiencia" className="experiencia">
         <div>
-          <h3 className="experiencia-title">EXPERIENCIA DE TRABAJO</h3>
+          <h2 className="experiencia-title">EXPERIENCIA DE TRABAJO</h2>
 
           {/* # 1 */}
           <Lista_Punteada_Contenedor_Item
