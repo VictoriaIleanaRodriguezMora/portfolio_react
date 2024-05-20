@@ -1,17 +1,24 @@
 import "../../../sass/index.scss";
-import Lista_Item from "./Lista_Tecnologias/Lista_Item/Lista_Item";
+import Lista_Item from "./Lista_Item/Lista_Item";
 import { Interface_Lista_Tecnologia } from "../../../interfaces/Interface_Lista_Tecnologias";
 
-const Items_Tecnologias: React.FC<Interface_Lista_Tecnologia> = ({ className_item, icon_item, span_item, titulo_tecnologias }) => {
+const Items_Tecnologias: React.FC<Interface_Lista_Tecnologia> = ({
+  className_item,
+  icon_item,
+  span_item,
+  titulo_tecnologias,
+}) => {
   return (
     <article>
       <h3>{titulo_tecnologias}</h3>
       <ul>
-        <Lista_Item className_item={className_item} icon_item={icon_item} span_item={span_item} />
+        <Lista_Item
+          className_item={className_item}
+          icon_item={icon_item}
+          span_item={span_item}
+        />
       </ul>
     </article>
-
-
   );
 };
 

@@ -1,13 +1,14 @@
-import React from 'react'
+import Lista_Proyectos from "./Lista_Proyectos/Lista_Proyectos";
 
 const Proyectos = () => {
-    return (
-        <section>
+  return (
+    <section>
+      <h2>TECNOLOGIAS</h2>
+      <div>
+        <Lista_Proyectos />
+      </div>
+    </section>
+  );
+};
 
-
-
-        </section>
-    )
-}
-
-export default Proyectos
+export default Proyectos;
