@@ -1,5 +1,5 @@
 import "../../../sass/index.scss";
-import Lista_Item from "./Lista_Item/Lista_Item";
+import Lista_Item from "./Item_Lista/Item_Lista";
 import { Interface_Lista_Tecnologia } from "../../../interfaces/Interface_Lista_Tecnologias";
 
 const Items_Tecnologias: React.FC<Interface_Lista_Tecnologia> = ({
