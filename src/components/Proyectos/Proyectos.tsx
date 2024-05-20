@@ -1,11 +1,11 @@
-import Lista_Proyectos from "./Lista_Proyectos/Lista_Proyectos";
+import Proyectos_Lista from "./Proyectos_Lista/Proyectos_Lista";
 
 const Proyectos = () => {
   return (
     <section>
       <h2>TECNOLOGIAS</h2>
       <div>
-        <Lista_Proyectos />
+        <Proyectos_Lista />
       </div>
     </section>
   );
