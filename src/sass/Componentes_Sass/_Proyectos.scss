@@ -1,0 +1,9 @@
+#proyectos {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.272);
+  div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+}
