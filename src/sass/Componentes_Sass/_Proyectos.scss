@@ -2,8 +2,12 @@
   width: 100%;
   background-color: rgba(255, 0, 0, 0.272);
   div {
+    padding: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 }
