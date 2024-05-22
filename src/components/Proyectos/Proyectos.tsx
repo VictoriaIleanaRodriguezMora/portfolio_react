@@ -3,7 +3,7 @@ import Proyectos_Lista from "./Proyectos_Lista/Proyectos_Lista";
 const Proyectos = () => {
   return (
     <section id="proyectos" >
-      <h2>TECNOLOGIAS</h2>
+      <h2>PROYECTOS</h2>
       <div>
         <article>
           {/* Proyecto 1 */}

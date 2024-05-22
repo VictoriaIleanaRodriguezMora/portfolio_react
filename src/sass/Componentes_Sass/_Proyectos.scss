@@ -9,5 +9,19 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    article {
+      ul {
+        li {
+          .proyectos_div {
+            background-color: aqua;
+            border-radius: 15px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
   }
 }

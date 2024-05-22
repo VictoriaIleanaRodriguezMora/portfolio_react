@@ -11,7 +11,7 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
   return (
     // {}
     <li>
-      <div>
+      <div className="proyectos_div" >
         <a href={project_link}>
           <h4>{project_title}</h4>
           <p>{project_description}</p>

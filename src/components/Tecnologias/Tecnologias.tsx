@@ -1,4 +1,4 @@
-import Items_Tecnologias from './Items_Tecnologias/Items_Tecnologias'
+import Items_Tecnologias from "./Items_Tecnologias/Items_Tecnologias";
 import {
   faGithub,
   faGitAlt,
@@ -37,10 +37,9 @@ const Tecnologias = () => {
           icon_item={[faGitAlt, faGithub, faNpm]}
           span_item={["Git", "Github", "Npm"]}
         />
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Tecnologias
+export default Tecnologias;
