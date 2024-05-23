@@ -20,9 +20,20 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
       <div className="proyectos_div">
         <h4>{project_title}</h4>
         <p>{project_description}</p>
-        {project_icon.map((icon, i) => {
-          return (<FontAwesomeIcon key={i} icon={icon} />)
-        })}
+
+        {/* Iconos Tecnologias */}
+        <ul>
+          {project_icon.map((icon, i) => {
+            return (
+              <li>
+                <FontAwesomeIcon key={i} icon={icon} />
+              </li>
+            )
+          })}
+        </ul>
+        {/* Iconos Tecnologias */}
+
+        {/* Iconos Links */}
         <ul>
           {project_deploy_link ? (
             <>
@@ -44,8 +55,9 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
               </a>
             </li>
           )}
-
         </ul>
+        {/* Iconos Links */}
+
       </div>
     </li >
   );
