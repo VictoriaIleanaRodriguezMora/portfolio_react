@@ -20,40 +20,42 @@ const Proyectos = () => {
         <article>
           {/* Proyecto 1 */}
           <Proyectos_Lista
-            project_link={"project_link"}
             project_description={"project_description"}
             project_title={"project_title_M"}
             project_icon={[faHtml5, faCss3, faSass, faJsSquare]}
+            project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/Marvell.git"}
+            project_deploy_link="https://marvell.vercel.app/"
           />
         </article>
 
         {/* Proyecto 2 */}
         <article>
           <Proyectos_Lista
-            project_link={"project_link"}
             project_description={"project_description"}
             project_title={"project_title_r_e"}
             project_icon={[faCss3, faSass, faReact]}
+            project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/react-ecommerce.git"}
+            project_deploy_link="https://react-ecommerce-virm.vercel.app/"
           />
         </article>
 
         {/* Proyecto 3 */}
         <article>
           <Proyectos_Lista
-            project_link={"project_link"}
             project_description={"project_description"}
             project_title={"project_title_b_n"}
             project_icon={[faNode, faSass, faLeaf]}
+            project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/BackEndNode.git"}
           />
         </article>
 
         {/* Proyecto 4 */}
         <article>
           <Proyectos_Lista
-            project_link={"project_link"}
             project_description={"project_description"}
             project_title={"project_title_sql"}
             project_icon={[faDatabase]}
+            project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/sql_torneo_deportivo.git"}
           />
         </article>
       </div>

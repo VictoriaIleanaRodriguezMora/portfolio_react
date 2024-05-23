@@ -3,20 +3,21 @@ import { Interface_Proyecto_Item } from "../../../interfaces/Interface_Proyecto_
 // import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 const Proyectos_Lista: React.FC<Interface_Proyecto_Item> = ({
-  project_link,
   project_description,
   project_title,
   project_icon,
-  //   project_item_className
+  project_github_link,
+  project_deploy_link
 }) => {
   return (
     <article>
       <ul>
         <Proyectos_Item
-          project_link={project_link}
           project_description={project_description}
           project_title={project_title}
           project_icon={project_icon}
+          project_github_link={project_github_link}
+          project_deploy_link={project_deploy_link}
         />
       </ul>
     </article>
