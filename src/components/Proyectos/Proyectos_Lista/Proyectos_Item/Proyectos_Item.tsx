@@ -9,11 +9,9 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
   project_title,
   project_icon,
   project_github_link,
-  project_deploy_link
+  project_deploy_link,
+  project_item_className
 }) => {
-
-
-
 
   return (
     <li>
@@ -26,7 +24,7 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
           {project_icon.map((icon, i) => {
             return (
               <li>
-                <FontAwesomeIcon key={i} icon={icon} />
+                <FontAwesomeIcon className={`dev ${project_item_className[i]} `} key={i} icon={icon} />
               </li>
             )
           })}
@@ -34,17 +32,19 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
         {/* Iconos Tecnologias */}
 
         {/* Iconos Links */}
-        <ul>
+        <ul className="ul_links" >
           {project_deploy_link ? (
             <>
               <li>
                 <a href={project_github_link}>
-                  <FontAwesomeIcon icon={faGithub} />Code
+                  <FontAwesomeIcon icon={faGithub} />
+                  Code
                 </a>
               </li>
               <li>
                 <a href={project_deploy_link}>
-                  <FontAwesomeIcon icon={faLink} /> Ver proyecto
+                  <FontAwesomeIcon icon={faLink} />
+                  Ver proyecto
                 </a>
               </li>
             </>

@@ -7,7 +7,8 @@ const Proyectos_Lista: React.FC<Interface_Proyecto_Item> = ({
   project_title,
   project_icon,
   project_github_link,
-  project_deploy_link
+  project_deploy_link,
+  project_item_className
 }) => {
   return (
     <article>
@@ -18,6 +19,7 @@ const Proyectos_Lista: React.FC<Interface_Proyecto_Item> = ({
           project_icon={project_icon}
           project_github_link={project_github_link}
           project_deploy_link={project_deploy_link}
+          project_item_className={project_item_className}
         />
       </ul>
     </article>

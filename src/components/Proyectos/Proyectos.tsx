@@ -25,6 +25,7 @@ const Proyectos = () => {
             project_icon={[faHtml5, faCss3, faSass, faJsSquare]}
             project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/Marvell.git"}
             project_deploy_link="https://marvell.vercel.app/"
+            project_item_className={["html", "css", "sass", "js"]}
           />
         </article>
 
@@ -36,6 +37,7 @@ const Proyectos = () => {
             project_icon={[faCss3, faSass, faReact]}
             project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/react-ecommerce.git"}
             project_deploy_link="https://react-ecommerce-virm.vercel.app/"
+            project_item_className={["css", "sass", "react"]}
           />
         </article>
 
@@ -44,8 +46,9 @@ const Proyectos = () => {
           <Proyectos_Lista
             project_description={"project_description"}
             project_title={"project_title_b_n"}
-            project_icon={[faNode, faSass, faLeaf]}
+            project_icon={[faSass, faNode, faLeaf]}
             project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/BackEndNode.git"}
+            project_item_className={["sass", "node", "mongo"]}
           />
         </article>
 
@@ -56,6 +59,7 @@ const Proyectos = () => {
             project_title={"project_title_sql"}
             project_icon={[faDatabase]}
             project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/sql_torneo_deportivo.git"}
+            project_item_className={["mysql"]}
           />
         </article>
       </div>
