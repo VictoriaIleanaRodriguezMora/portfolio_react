@@ -2,7 +2,7 @@
 
 #proyectos {
   width: 100%;
-  background-color: rgba(255, 0, 0, 0.272);
+  // background-color: rgba(255, 0, 0, 0.158);
   div {
     padding: 1%;
     display: grid;
@@ -15,13 +15,14 @@
       ul {
         li {
           .proyectos_div {
-            background-color: aqua;
             border-radius: 15px;
             padding: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            border: 1px solid rgb(0, 0, 0);
+
             ul {
               display: flex;
               flex-direction: row;
@@ -36,7 +37,7 @@
             .ul_links {
               width: 100%;
               display: flex;
-              justify-content: space-evenly;
+              justify-content: space-around;
             }
           }
         }
