@@ -33,12 +33,20 @@
                 padding: 8px;
                 border-radius: 3px;
               }
+              li {
+                padding: 2px;
+              }
             }
-            .ul_links {
+
+            .ProyectosItem_ul-links {
               width: 100%;
               display: flex;
               justify-content: space-around;
+              svg {
+                margin-right: 5px;
+              }
             }
+
           }
         }
       }

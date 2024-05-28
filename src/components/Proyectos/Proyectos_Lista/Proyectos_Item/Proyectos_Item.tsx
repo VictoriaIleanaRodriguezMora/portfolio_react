@@ -32,7 +32,7 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
         {/* Iconos Tecnologias */}
 
         {/* Iconos Links */}
-        <ul className="ul_links" >
+        <ul className="ProyectosItem_ul-links" >
           {project_deploy_link ? (
             <>
               <li>
@@ -43,7 +43,7 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
               </li>
               <li>
                 <a href={project_deploy_link}>
-                  <FontAwesomeIcon icon={faLink} />
+                  <FontAwesomeIcon icon={faLink} className="ProyectosItem_ul-icon" />
                   Ver proyecto
                 </a>
               </li>
