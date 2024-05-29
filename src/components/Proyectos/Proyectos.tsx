@@ -31,6 +31,7 @@ const Proyectos = () => {
 
         {/* Proyecto 2 */}
         <article>
+          
           <Proyectos_Lista
             project_title={"React Ecommerce"}
             project_description={"project_description"}
