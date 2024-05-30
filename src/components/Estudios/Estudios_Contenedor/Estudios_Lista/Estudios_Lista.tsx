@@ -1,14 +1,12 @@
 import Estudios_Item from "./Estudios_Item/Estudios_Item";
+import { Interface_Contenido_Prop } from "../../../../interfaces/Interface_Contenido_Prop";
 
-const Estudios_Lista = () => {
+const Estudios_Lista: React.FC<Interface_Contenido_Prop> = ({ contenidos_prop }) => {
   return (
     <>
       <ul>
         <Estudios_Item
-          contenidos_prop={[
-            "Dictar las clases de HTML, CSS y JavaScript",
-            "Responder consultas fuera de clase",
-          ]}
+          contenidos_prop={contenidos_prop}
         />
       </ul>
     </>

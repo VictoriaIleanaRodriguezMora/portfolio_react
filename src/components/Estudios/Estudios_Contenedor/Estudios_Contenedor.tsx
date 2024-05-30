@@ -4,7 +4,7 @@ import Estudios_Lista from "./Estudios_Lista/Estudios_Lista";
 
 const Estudios_Contenedor: React.FC<
     Interface_Estudios_Contenedor
-> = ({ titulo_prop, fecha_prop, empresa_prop }) => {
+> = ({ titulo_prop, fecha_prop, empresa_prop, contenidos_prop }) => {
     return (
         <>
             <div className="experiencia-item list-steps-item">
@@ -14,7 +14,7 @@ const Estudios_Contenedor: React.FC<
                     <div className="fecha_empresa">
                         <p>{empresa_prop}</p>
                     </div>
-                    <Estudios_Lista />
+                    <Estudios_Lista contenidos_prop={contenidos_prop} />
                 </div>
             </div>
         </>

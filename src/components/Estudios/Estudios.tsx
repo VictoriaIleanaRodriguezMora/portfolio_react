@@ -13,20 +13,23 @@ const Estudios = () => {
             titulo_prop="Desarrollo Web"
             fecha_prop="Marzo 2022"
             empresa_prop="Coder House"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
           <Estudios_Contenedor
             titulo_prop="Desarrollo Web - Nivel 1"
-            fecha_prop="Julio 2021"
+            fecha_prop="Julio 2020"
             empresa_prop="Aprende Programando"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
           <Estudios_Contenedor
             titulo_prop="Desarrollo Web - Nivel 2"
-            fecha_prop="Noviembre 2021"
+            fecha_prop="Noviembre 2020"
             empresa_prop="Aprende Programando"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
@@ -34,6 +37,7 @@ const Estudios = () => {
             titulo_prop="Curso Introductorio de Programación"
             fecha_prop="Febrero 2022"
             empresa_prop="Plataforma 5 - Coding Bootcamp"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
@@ -41,13 +45,7 @@ const Estudios = () => {
             titulo_prop="Desarrollo Web - Nivel 4"
             fecha_prop="Julio 2022"
             empresa_prop="Aprende Programando"
-          />
-
-          {/* # 1 */}
-          <Estudios_Contenedor
-            titulo_prop="Curso Introductorio de Programación"
-            fecha_prop="Febrero 2022"
-            empresa_prop="Plataforma 5 - Coding Bootcamp"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
@@ -55,6 +53,7 @@ const Estudios = () => {
             titulo_prop="React"
             fecha_prop="Julio 2022"
             empresa_prop="Coder House"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
@@ -62,6 +61,7 @@ const Estudios = () => {
             titulo_prop="Back End"
             fecha_prop="Marzo 2023"
             empresa_prop="Coder House"
+            contenidos_prop={[""]}
           />
 
           {/* # 1 */}
@@ -69,6 +69,7 @@ const Estudios = () => {
             titulo_prop="SQL"
             fecha_prop="Marzo 2023"
             empresa_prop="Coder House"
+            contenidos_prop={[""]}
           />
         </div>
       </section>
