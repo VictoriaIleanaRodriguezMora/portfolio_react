@@ -4,7 +4,7 @@ import Lista_Punteada_List from "./Lista_Punteada_List/Lista_Punteada_List";
 
 const Lista_Punteada_Contenedor_Item: React.FC<
   Interface_Lista_Punteada_Contenedor_Items
-> = ({ posicion_prop, duracion_prop, empresa_prop }) => {
+> = ({ posicion_prop, duracion_prop, empresa_prop, contenidos_prop }) => {
   return (
     <>
       <div className="experiencia-item list-steps-item">
@@ -14,7 +14,7 @@ const Lista_Punteada_Contenedor_Item: React.FC<
           <div className="fecha_empresa">
             <p>{empresa_prop}</p>
           </div>
-          <Lista_Punteada_List />
+          <Lista_Punteada_List contenidos_prop={contenidos_prop} />
         </div>
       </div>
     </>
