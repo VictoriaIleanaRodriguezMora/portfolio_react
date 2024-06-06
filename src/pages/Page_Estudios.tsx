@@ -53,7 +53,7 @@ const Page_Estudios = () => {
                     posicion_prop: "Back End",
                     duracion_prop: "Marzo 2023",
                     empresa_prop: "Coder House",
-                    contenidos_prop: ["Programación sincrónica y asincrónica | FileSystem | NPM | Express | Router | Multer | Websockets | MongoDB | Mongoose | Cookies, Sessions & Storages | Autorización  | Autenticación | JWT | Passport | Global & Child Process | Arquitectura por capas | Mailing y mensajería(TWILIO) | Swagger | GraphQL"]
+                    contenidos_prop: ["Programación sincrónica y asincrónica | FileSystem | NPM | Express | Motores de Plantillas | EJS | Router | Multer | Websockets | MongoDB | Mongoose | Cookies, Sessions & Storages | Autorización  | Autenticación | JWT | Passport | Global & Child Process | Arquitectura por capas | Mailing y mensajería(TWILIO) | Swagger | GraphQL"]
                 },
                 {
                     posicion_prop: "SQL",
