@@ -11,7 +11,7 @@ const Lista_Item: React.FC<Interface_Lista_Item> = ({
       {className_item.map((item, i) => {
         return (
           <li>
-            <FontAwesomeIcon className={`dev ${item}`} icon={icon_item[i]} />
+            <FontAwesomeIcon className={`tecnologias__item--dev  ${item}`} icon={icon_item[i]} />
             <span> {span_item[i]} </span>
           </li>
         );

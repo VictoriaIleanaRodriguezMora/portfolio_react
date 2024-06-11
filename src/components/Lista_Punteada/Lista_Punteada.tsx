@@ -5,9 +5,9 @@ import { Interface_Lista_Punteada } from "../../interfaces/Interface_Lista_Punte
 const Lista_Punteada: React.FC<Interface_Lista_Punteada> = ({ title_h2, items }) => {
   return (
     <>
-      <section id="experiencia" className="experiencia">
+      <section id="listaPunteada" >
         <div>
-          <h2 className="experiencia-title">{title_h2}</h2>
+          <h3>{title_h2}</h3>
 
           {items.map((e, i) => {
             return (<Lista_Punteada_Contenedor_Item

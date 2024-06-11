@@ -14,7 +14,7 @@ import { faLeaf, faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Tecnologias = () => {
   return (
-    <section id="Items_Tecnologias">
+    <section id="tecnologias">
       <h2>TECNOLOGIAS</h2>
       <div>
         <Items_Tecnologias

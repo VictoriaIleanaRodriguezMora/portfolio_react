@@ -8,4 +8,5 @@ export interface Interface_Proyecto_Item {
   project_github_link: string;
   project_deploy_link?: string;
   project_id?: string
+  project_image?: string;
 }

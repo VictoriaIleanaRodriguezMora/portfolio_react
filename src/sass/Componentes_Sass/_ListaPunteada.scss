@@ -1,15 +1,6 @@
-.Lista_Punteada {
-  max-width: 800px;
-  width: 90%;
-  margin: 0 auto;
-  border: 2px solid red;
-  background-color: rgb(21, 255, 0);
-  display: flex;
-  justify-content: center;
-}
 
 // Lista_Punteada_Contenedor
-section {
+#listaPunteada   {
   border-radius: 25px;
   width: 50%;
 
@@ -21,19 +12,23 @@ section {
     color: #000000;
   }
 
-  .experiencia-item > div {
+  .listaPunteada__item > div {
     border-radius: 15px;
   }
-  .experiencia-item {
+
+  .listaPunteada__item {
     color: #38485c;
     position: relative;
     padding: 0 0 1.5rem 2.25rem;
+
     h5 {
       font-size: 15px;
       text-align: start;
       padding: 4px 0px 6px 0px;
     }
+
     div {
+
       h4 {
         line-height: 18px;
         font-size: 18px;
@@ -44,7 +39,8 @@ section {
         border-radius: 15px;
         text-shadow: 0px 2px 4px rgb(255, 255, 255);
       }
-      .fecha_empresa {
+
+      .listaPunteada__item-empresa {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -52,13 +48,13 @@ section {
 
         p {
           font-size: 15px;
-          /* background-color: rgb(17 0 255 / 52%); */
           padding: 5px 5px;
           border-radius: 10px;
           margin-left: 10px;
           border: 3px solid rgb(0 33 255);
         }
       }
+
       ul {
         margin: 1%;
         padding: 1%;
