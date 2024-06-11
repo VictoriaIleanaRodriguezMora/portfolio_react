@@ -1,9 +1,8 @@
 @import "./Variables/IconosTecnologias";
 
+
 #proyectos {
   width: 100%;
-  padding: 2px;
-  margin-top: 15px;
   // background-color: rgba(255, 0, 0, 0.158);
   div {
     padding: 1%;
@@ -16,7 +15,15 @@
     article {
       ul {
         li {
+
+          #proyecto_marvel{
+            background-image: url("/src/assets/proyecto_marvel.jpg");
+            background-image: url("/src/assets/617shots_so.png");
+          }
+
           .proyectos_div {
+            background-repeat: no-repeat;
+            background-size: cover;
             border-radius: 15px;
             padding: 10px;
             display: flex;
@@ -24,7 +31,7 @@
             justify-content: center;
             align-items: center;
             border: 1px solid rgb(0, 0, 0);
-            min-height: 250px;
+
 
             ul {
               display: flex;
@@ -41,6 +48,7 @@
               }
             }
 
+
             .ProyectosItem_ul-links {
               width: 100%;
               display: flex;
@@ -49,6 +57,8 @@
                 margin-right: 5px;
               }
             }
+
+
           }
         }
       }

@@ -17,7 +17,7 @@ const Proyectos = () => {
     <section id="proyectos" >
       <h2>PROYECTOS</h2>
       <div>
-        <article>
+      <article>
           {/* Proyecto 1 */}
           <Proyectos_Lista
             project_title={"Marvel"}
@@ -26,6 +26,7 @@ const Proyectos = () => {
             project_github_link={"https://github.com/VictoriaIleanaRodriguezMora/Marvell.git"}
             project_deploy_link="https://marvell.vercel.app/"
             project_item_className={["html", "css", "sass", "js"]}
+            project_id="proyecto_marvel"
           />
         </article>
 

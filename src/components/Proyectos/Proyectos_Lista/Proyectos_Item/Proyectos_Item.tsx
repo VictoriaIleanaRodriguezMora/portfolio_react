@@ -10,12 +10,13 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
   project_icon,
   project_github_link,
   project_deploy_link,
-  project_item_className
+  project_item_className,
+  project_id
 }) => {
 
   return (
     <li>
-      <div className="proyectos_div">
+      <div id={project_id} className="proyectos_div">
         <h4>{project_title}</h4>
         <p>{project_description}</p>
 
