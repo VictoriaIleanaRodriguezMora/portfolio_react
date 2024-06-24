@@ -26,7 +26,7 @@ const Proyectos = () => {
             project_deploy_link="https://marvell.vercel.app/"
             project_item_className={["html", "css", "sass", "js"]}
             project_id="proyecto_marvel"
-            project_image="/src/assets/proyecto_marvel.jpg"
+            // project_image="/src/assets/proyecto_marvel.jpg"
           />
   
         {/* Proyecto 2 */}
@@ -38,8 +38,7 @@ const Proyectos = () => {
             project_deploy_link="https://react-ecommerce-virm.vercel.app/"
             project_item_className={["css", "sass", "react"]}
             project_id="proyecto_react"
-            project_image="/src/assets/proyecto_react.jpg"
-
+            // project_image="/src/assets/proyecto_react.jpg"
           />
   
 
