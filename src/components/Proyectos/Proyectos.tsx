@@ -17,7 +17,6 @@ const Proyectos = () => {
     <section id="proyectos" >
       <h2>PROYECTOS</h2>
       <div>
-      <article>
           {/* Proyecto 1 */}
           <Proyectos_Lista
             project_title={"Marvel"}
@@ -27,12 +26,10 @@ const Proyectos = () => {
             project_deploy_link="https://marvell.vercel.app/"
             project_item_className={["html", "css", "sass", "js"]}
             project_id="proyecto_marvel"
+            project_image="/src/assets/proyecto_marvel.jpg"
           />
-        </article>
-
+  
         {/* Proyecto 2 */}
-        <article>
-
           <Proyectos_Lista
             project_title={"React Ecommerce"}
             project_description={"Tienda desarrollada en React, conectada a Firebase. En ella vas a poder agregar productos a un carrito de compras, navegar entre rutas y generar una orden de compra. En el mismo se usan componentes de React cómo Context y Router-Dom. CoderHouse"}
@@ -41,11 +38,12 @@ const Proyectos = () => {
             project_deploy_link="https://react-ecommerce-virm.vercel.app/"
             project_item_className={["css", "sass", "react"]}
             project_id="proyecto_react"
+            project_image="/src/assets/proyecto_react.jpg"
+
           />
-        </article>
+  
 
         {/* Proyecto 3 */}
-        <article>
           <Proyectos_Lista
             project_title={"Back End"}
             project_description={"Back End desarrollado con Node.js. Cuenta con un login/registro, una ruta para ver tu información de Usuario, posibilidad de desloguearse. Te permite agregar productos al carrito, eliminarlos, generar una orden con los productos seleccionados que te llega al mail con el que te registraste."}
@@ -54,10 +52,9 @@ const Proyectos = () => {
             project_item_className={["sass", "node", "mongo"]}
             project_id="proyecto_backend"
           />
-        </article>
+  
 
         {/* Proyecto 4 */}
-        <article>
           <Proyectos_Lista
             project_title={"Base de Datos"}
             project_description={"Pensado y desarrollado en base a las necesidades de un torneo deportivo."}
@@ -66,7 +63,7 @@ const Proyectos = () => {
             project_item_className={["mysql"]}
             project_id="proyecto_bdd"
           />
-        </article>
+  
       </div>
     </section>
   );

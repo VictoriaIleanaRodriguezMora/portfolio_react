@@ -11,17 +11,25 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
   project_github_link,
   project_deploy_link,
   project_item_className,
-  project_id
+  project_id,
+  project_image
 }) => {
 
   return (
-    <li>
-      <div id={project_id} className="proyectosItem">
+    <li className="proyectosItem" >
+      {project_image
+        ?
+        <div id={project_id} className="proyectosItem__img"  >
+          <img src={project_image} alt="Imagen"  />
+        </div>
+        : ""}
+
+      <div className="proyectosItem__content">
         <h4>{project_title}</h4>
         <p>{project_description}</p>
 
         {/* Iconos Tecnologias */}
-        <ul>
+        <ul className="proyectosItem__technologies" >
           {project_icon.map((icon, i) => {
             return (
               <li>
@@ -33,7 +41,7 @@ const Proyectos_Item: React.FC<Interface_Proyecto_Item> = ({
         {/* Iconos Tecnologias */}
 
         {/* Iconos Links */}
-        <ul className="proyectosItem__links" >
+        <ul className="proyectosItem__codeLinks" >
           {project_deploy_link ? (
             <>
               <li>

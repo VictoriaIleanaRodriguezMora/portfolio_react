@@ -1,26 +1,37 @@
 @import "./Variables/IconosTecnologias";
 
-
 #proyectos {
   width: 100%;
+
   div {
     padding: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 15px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin: 10px;
+
     article {
       ul {
-        li {
+        .proyectosItem {
+          width: 100%;
+          .proyectosItem__img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 300px;
+            min-height: 250px;
 
-          #proyecto_marvel{
-            background-image: url("/src/assets/proyecto_marvel.jpg");
-            background-image: url("/src/assets/617shots_so.png");
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 20px;
+            }
           }
 
-          .proyectosItem {
+          .proyectosItem__content {
             background-repeat: no-repeat;
             background-size: cover;
             border-radius: 15px;
@@ -30,8 +41,9 @@
             justify-content: center;
             align-items: center;
             border: 1px solid rgb(0, 0, 0);
+            min-height: 250px;
 
-            ul {
+            .proyectosItem__technologies {
               display: flex;
               flex-direction: row;
               /* tecnologias */
@@ -46,8 +58,7 @@
               }
             }
 
-
-            .proyectosItem__links {
+            .proyectosItem__codeLinks {
               width: 100%;
               display: flex;
               justify-content: space-around;
@@ -56,8 +67,6 @@
                 margin-right: 5px;
               }
             }
-
-
           }
         }
       }
