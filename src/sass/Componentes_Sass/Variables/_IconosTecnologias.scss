@@ -26,6 +26,34 @@ $github-bg: rgb(19,28,81);
 $npm-bg: rgb(255, 255, 255);
 // color de fondo
 
+// colores
+$css: rgb(37, 75, 221);
+$html: rgb(221, 75, 36);
+$js: rgb(239, 216, 29);
+$react: rgb(94, 211, 243);
+$sass: rgb(198, 99, 148);
+$node: rgb(134, 190, 1);
+$mongo: rgb(17, 141, 77);
+$mysql: rgb(0, 94, 135);
+$git: rgb(233, 78, 49);
+$github: rgb(0, 0, 0);
+$npm: rgb(197, 54, 53);
+// colores
+
+// color de fondo
+$css-bg: rgba(37, 74, 221, 0.185);
+$html-bg: rgba(221, 76, 36, 0.171);
+$js-bg: rgba(239, 214, 29, 0.146);
+$react-bg: rgba(94, 211, 243, 0.199);
+$sass-bg: rgba(255, 3, 129, 0.119);
+$node-bg: rgba(3, 136, 47, 0.121);
+$mongo-bg: rgba(17, 141, 77, 0.174);
+$mysql-bg: rgba(0, 94, 135, 0.185);
+$git-bg: rgba(233, 77, 49, 0.174);
+$github-bg: rgba(0, 0, 0, 0.171);
+$npm-bg: rgba(255, 1, 1, 0.11);
+// color de fondo
+
 .css {
   background-color: $css-bg;
   color: $css;

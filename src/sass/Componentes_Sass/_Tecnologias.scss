@@ -24,6 +24,9 @@
       h3 {
         font-size: 22px;
         font-weight: 700;
+        display: flex;
+        align-self: start;
+        padding: 15px 15px 15px 168px;
       }
 
       ul {
@@ -31,16 +34,19 @@
         width: 80%;
         justify-content: space-around;
         padding: 2rem;
+        background-color: #0000005a;
+        border-radius: 25px;
 
         li {
           display: flex;
           justify-content: center;
           align-items: center;
           padding: 10px;
-          color: white;
-          background-color: #00000073;
+          color: black;
+          background-color: rgba(255, 255, 255, 0.984);
           border-radius: 15px;
-
+          width: 210px;
+          
           span {
             padding-left: 5px;
             font-size: 20px;
@@ -48,8 +54,8 @@
           }
 
           .tecnologias__item--dev {
-            height: 30px;
-            width: 30px;
+            height: 20px;
+            width: 20px;
             padding: 8px;
             border-radius: 10px;
             padding: 10px;
