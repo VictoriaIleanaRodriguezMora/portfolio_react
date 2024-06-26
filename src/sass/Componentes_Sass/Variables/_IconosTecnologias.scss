@@ -14,7 +14,7 @@ $npm: rgb(255, 0, 0);
 
 // color de fondo
 $css-bg: rgb(37, 74, 221);
-$html-bg: rgba(221, 76, 36, 0.678);
+$html-bg: rgb(221, 76, 36);
 $sass-bg: rgb(255, 3, 129);
 $js-bg: rgb(255, 225, 0);
 $react-bg: rgba(94, 211, 243, 0.199);
@@ -30,13 +30,13 @@ $npm-bg: rgb(255, 255, 255);
 $css: rgb(37, 75, 221);
 $html: rgb(221, 75, 36);
 $js: rgb(239, 216, 29);
-$react: rgb(94, 211, 243);
+$react: rgb(0, 182, 232);
 $sass: rgb(198, 99, 148);
-$node: rgb(134, 190, 1);
+$node: rgb(59, 141, 4);
 $mongo: rgb(17, 141, 77);
 $mysql: rgb(0, 94, 135);
-$git: rgb(233, 78, 49);
-$github: rgb(0, 0, 0);
+$git: rgb(218, 86, 3);
+$github: rgb(255, 255, 255);
 $npm: rgb(197, 54, 53);
 // colores
 
@@ -50,61 +50,72 @@ $node-bg: rgba(3, 136, 47, 0.121);
 $mongo-bg: rgba(17, 141, 77, 0.174);
 $mysql-bg: rgba(0, 94, 135, 0.185);
 $git-bg: rgba(233, 77, 49, 0.174);
-$github-bg: rgba(0, 0, 0, 0.171);
+$github-bg: rgb(0, 0, 0);
 $npm-bg: rgba(255, 1, 1, 0.11);
 // color de fondo
 
 .css {
   background-color: $css-bg;
   color: $css;
+  border: 1px solid $css;
 }
 
 .html {
   background-color: $html-bg;
   color: $html;
+  border: 1px solid $html;
 }
 
 .js {
   background-color: $js-bg;
   color: $js;
+  border: 1px solid $js;
 }
 
 .react {
   background-color: $react-bg;
   color: $react;
+  border: 1px solid $react;
 }
 
 .sass {
   background-color: $sass-bg;
   color: $sass;
+  border: 1px solid $sass;
 }
 
 .node {
   background-color: $node-bg;
   color: $node;
+  border: 1px solid $node;
 }
 
 .mongo {
   background-color: $mongo-bg;
   color: $mongo;
+  border: 1px solid $mongo;
 }
 
 .mysql {
   background-color: $mysql-bg;
   color: $mysql;
+  border: 1px solid $mysql;
 }
 
 .git {
   background-color: $git-bg;
   color: $git;
+  border: 1px solid $git;
 }
 
 .github {
   background-color: $github-bg;
   color: $github;
+  border: 1px solid $github;
 }
 
 .npm {
   background-color: $npm-bg;
   color: $npm;
+  border: 1px solid $npm;
 }
