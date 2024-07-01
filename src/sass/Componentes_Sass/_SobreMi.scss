@@ -7,15 +7,16 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    // justify-content: center;
 
     article {
       width: 100%;
       border: 1px solid red;
+      height: 100%;
+      padding: 5%;
+      text-align: start;
 
       div {
         width: 100%;
-        // background-color: red;
       }
     }
 
@@ -26,10 +27,9 @@ main {
 
       .sobremi__contacto--redes {
         ul {
-          //   background-color: green;
           display: flex;
           flex-direction: row;
-          justify-content: center;
+
           li {
             padding: 10px;
             svg {
@@ -45,6 +45,7 @@ main {
       div {
         p {
           font-family: "Courier Prime", monospace;
+          font-weight: 700;
         }
       }
     }
