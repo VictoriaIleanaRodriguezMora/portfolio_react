@@ -39,14 +39,12 @@ const Sobre_Mi = () => {
         <article className="sobremi__knowme">
           <div>
             <p>
-              {`
-              const knowMe = {
-              ImFrom: '🇦🇷 Buenos Aires, Argentina',
-              ProgrammingLanguages: ['HTML', 'CSS', 'SASS', 'JavaScript', 'React', 'Mongo DB', 'Mysql', 'Node.js', 'Git', 'Github', 'NPM'];
-              StudyingProgramming: 'Since 2019',
-              EnglishCambridge: 'B1 (still studying)',
-              LoveDogs: 'true 🐶'
-            }`}
+              <span>{`const knowMe = {`}</span><br />
+              <span>{`ImFrom: '🇦🇷 Buenos Aires, Argentina',`}</span><br />
+              <span>{`StudyingProgramming: 'Since 2019',`}</span><br />
+              <span>{`EnglishCambridge: 'B1 (still studying)',`}</span><br />
+              <span>{`LoveDogs: 'true 🐶'`}</span><br />
+              <span>{`};`}</span><br />
             </p>
           </div>
         </article>
