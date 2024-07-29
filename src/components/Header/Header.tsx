@@ -7,7 +7,7 @@ const Header = () => {
 
   let path;
   console.log("path", pathname);
-  
+
   if (pathname === "/experiencia-de-trabajo/") {
     path = <p> ~ $ cd /home/experiencia-de-trabajo/ </p>;
   }
@@ -24,33 +24,36 @@ const Header = () => {
     path = <p> ~ $ cd /home/sobre-mi/ </p>;
   }
 
-
   return (
     <header>
       <div>
+        {/* path */}
         <p>{path}</p>
 
-        <ul>
-          <Link to={`/sobre-mi/`}>
-            <li>Sobre mí</li>
-          </Link>
+        {/* links */}
+        <nav>
+          <ul>
+            <Link to={`/sobre-mi/`}>
+              <li>Sobre mí</li>
+            </Link>
 
-          <Link to={`/proyectos/`}>
-            <li>Proyectos</li>
-          </Link>
+            <Link to={`/proyectos/`}>
+              <li>Proyectos</li>
+            </Link>
 
-          <Link to={`/tecnologias/`}>
-            <li>Tecnologias</li>
-          </Link>
+            <Link to={`/tecnologias/`}>
+              <li>Tecnologias</li>
+            </Link>
 
-          <Link to={`/experiencia-de-trabajo/`}>
-            <li>Experiencia de trabajo</li>
-          </Link>
+            <Link to={`/experiencia-de-trabajo/`}>
+              <li>Experiencia de trabajo</li>
+            </Link>
 
-          <Link to={`/estudios/`}>
-            <li>Estudios</li>
-          </Link>
-        </ul>
+            <Link to={`/estudios/`}>
+              <li>Estudios</li>
+            </Link>
+          </ul>
+        </nav>
       </div>
     </header>
   );
