@@ -8,6 +8,10 @@ main {
     display: flex;
     flex-direction: row;
 
+    h1 {
+      line-height: 65px;
+    }
+
     article {
       width: 100%;
       border: 1px solid red;
@@ -27,6 +31,8 @@ main {
       }
 
       .sobremi__contacto--redes {
+        margin-top: 15px;
+
         ul {
           display: flex;
           flex-direction: row;
@@ -60,7 +66,30 @@ main {
           span {
             font-family: "Space Mono", monospace;
             font-family: "Courier Prime", monospace;
+            font-family: "Fira Code", monospace;
+            font-family: "JetBrains Mono", monospace;
+            font-family: "IBM Plex Mono", monospace;
+            font-family: "DM Mono", monospace;
+
+            line-height: 25px;
             font-weight: 600;
+
+            .sobremi__knowme-const{
+              color: rgb(0, 191, 255);
+            }
+
+            .sobremi__knowme-bracket {
+              color: rgb(172, 113, 2);
+            }
+
+            .sobremi__knowme-key {
+              color: rgb(46, 160, 46);
+            }
+
+            .sobremi__knowme-value {
+              color: rgb(64, 0, 255);
+            }
+
           }
         }
       }

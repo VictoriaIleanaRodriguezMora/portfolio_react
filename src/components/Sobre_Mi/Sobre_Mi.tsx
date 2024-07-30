@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 ("@fortawesome/free-solid-svg-icons");
 
 const Sobre_Mi = () => {
@@ -15,7 +15,11 @@ const Sobre_Mi = () => {
     <main>
       <section id="sobremi">
         <article className="sobremi__contacto">
-          <h1>Hola! 👋🏼 Soy Victoria Rodriguez - Full Stack Web Developer</h1>
+          <h1>
+            Hola! 👋🏼 <br />
+            Soy Victoria Rodriguez, <br />
+            Full Stack Web Developer
+          </h1>
 
           <div className="sobremi__contacto--redes">
             <ul>
@@ -36,25 +40,55 @@ const Sobre_Mi = () => {
           </div>
 
           <div className="sobremi__contacto--curriculum">
-            <button> VER CURRICULUM</button>
+            <button>
+              VER CURRICULUM <FontAwesomeIcon icon={faDownload} />
+            </button>
           </div>
         </article>
 
         <article className="sobremi__knowme">
           <div>
             <p>
-              <span>{`const knowMe = {`}</span>
+              <span>
+                <span className="sobremi__knowme-const">const </span>
+                knowMe
+                <span className="sobremi__knowme-const"> = </span>
+                <span className="sobremi__knowme-bracket"> {`{`}</span>
+              </span>
               <br />
-              <span>{`ImFrom: '🇦🇷 Buenos Aires, Argentina',`}</span>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="sobremi__knowme-key">ImFrom:</span>
+                <span className="sobremi__knowme-value">
+                  '🇦🇷 Buenos Aires, Argentina',
+                </span>
+              </span>
               <br />
-              <span>{`StudyingProgramming: 'Since 2019',`}</span>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="sobremi__knowme-key">
+                  StudyingProgramming:
+                </span>
+                <span className="sobremi__knowme-value"> 'Since 2019',</span>
+              </span>
               <br />
-              <span>{`EnglishCambridge: 'B1 (still studying)',`}</span>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="sobremi__knowme-key">EnglishCambridge:</span>
+                <span className="sobremi__knowme-value">
+                  'B1 (still studying)',
+                </span>
+              </span>
               <br />
-              <span>{`LoveDogs: 'true 🐶'`}</span>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="sobremi__knowme-key">LoveDogs:</span>
+                <span className="sobremi__knowme-value"> 'true 🐶'</span>
+              </span>
               <br />
-              <span>{`};`}</span>
-              <br />
+              <span>
+                <span className="sobremi__knowme-bracket">{`};`}</span>
+              </span>
             </p>
           </div>
         </article>
